@@ -103,3 +103,8 @@ section {
   margin-top: 120px;
   overflow: hidden;
 }
+.link-card {
+  text-decoration: none;
+  color: black;
+  height: 700;
+}

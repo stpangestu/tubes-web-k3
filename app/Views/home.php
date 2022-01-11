@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guide.in - Resep</title>
     <!--Css-->
     <link rel="stylesheet" href="<?= base_url('style.css'); ?>" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -20,9 +20,9 @@
 <body>
     <nav>
         <div style="margin-left: 5em">
-            <a class="nav-link" href=""> <b>Home</b> </a>
+            <a class="nav-link" href="/"> <b>Home</b> </a>
+            <a class="nav-link" href=""> <b>Restoran</b> </a>
             <a class="nav-link" href=""> <b>Resep</b> </a>
-            <a class="nav-link" href=""> <b>Resto</b> </a>
         </div>
         <div style="margin-left: -5em">
             <h2>Guide.in</h2>
@@ -43,13 +43,15 @@
             </b>
         </div>
 
-        <!-- populer -->
         <div class="row-center" style="margin-bottom: 5%;">
-            <div class="col">
-                <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
-                <p>Test</p>
+            <div class="col ">
+                <a class="link-card" href="">
+                    <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
+                    <p><b>Test</b></p>
+                </a>
             </div>
         </div>
+        <!-- populer -->
         <div class="row-center">
             <b style=" font-family: 'inter';">
                 Resep Populer
@@ -57,8 +59,11 @@
         </div>
         <div class="row-center" style="margin-bottom: 5%;">
             <div class="col">
-                <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
-                <p>Test</p>
+                <a class="link-card" href="">
+
+                    <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
+                    <p><b>Test</b></p>
+                </a>
             </div>
         </div>
         <div class="row-center">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guide.in - Resep makanan dan Restoran</title>
     <!--Css-->
     <link rel="stylesheet" href="<?= base_url('style.css'); ?>" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -20,12 +20,12 @@
 <body>
     <div>
         <nav>
-            <div style="margin-left: 5em">
+            <!-- <div style="margin-left: 5em">
                 <a class="nav-link" href=""> <b>Home</b> </a>
                 <a class="nav-link" href=""> <b>Resep</b> </a>
                 <a class="nav-link" href=""> <b>Resto</b> </a>
-            </div>
-            <div style="margin-left: -5em">
+            </div> -->
+            <div style="margin-left: 43em">
                 <h2 class="nav-brand">Guide.in</h2>
             </div>
             <div style="margin-right: 10em" class="input-container">
@@ -40,20 +40,25 @@
             justify-content: space-between;
             align-items: flex-start;
           ">
-                <div>
-                    <h1 class="wel-mess">Mari memasak dengan resep terbaik!</h1>
-                    <p style="
+                <div style="padding-left: 3em;">
+                    <h1 class="wel-mess">
+                        <p>Mari memasak</p>
+                        <p>dengan resep</p>
+                        <p>terbaik!</p>
+                    </h1>
+                    <h3 style="
                 font-family: 'inter';
                 font-style: normal;
                 color: gray;
                 font-size: 24px;
                 line-height: 32px;
-                margin-top: 24px;
-                margin-bottom: 10%;
+                margin-top: 5%;
+                margin-bottom: 5%;
               ">
-                        Ingin memasak tetapi tidak tahu bagaimana memulainya? jangan
-                        khawatir lagi!
-                    </p>
+                        <p>Ingin memasak tetapi tidak tahu bagaimana memulainya?</p>
+                        <p> jangan khawatir lagi!</p>
+
+                    </h3>
                     <a class="btn-link" href="/home">Mulai</a>
                 </div>
                 <div>
