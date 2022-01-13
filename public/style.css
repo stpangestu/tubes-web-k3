@@ -31,6 +31,53 @@ nav {
   flex-grow: 1;
   width: 30%;
 }
+.row {
+  display: flex;
+  gap: 2em;
+}
+.col-standard {
+  padding: 24px 24px;
+  margin-left: 4%;
+}
+.step {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.send-recipe {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background-color: #d8d8d8;
+  overflow-y: scroll;
+  height: 731px;
+  width: 1085px;
+  border-radius: 6px;
+  margin-bottom: 3em;
+}
+.inner-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: start;
+  background-color: #ffffff;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  border-radius: 6px;
+}
+.komentar {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  margin-bottom: 1em;
+}
 .btn-category {
   width: 300px;
   height: 40px;
