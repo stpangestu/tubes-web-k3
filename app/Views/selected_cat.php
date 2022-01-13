@@ -34,34 +34,23 @@
     </nav>
     <section>
         <h1 style="margin-left: 4%; margin-bottom: 4%;">
-            Apa yang ingin anda masak hari ini?
+            Kategori : ...
         </h1>
-        <!-- baru -->
-        <div class="row-center">
-            <b style=" font-family: 'inter';">
-                Resep Terbaru
-            </b>
-        </div>
-
-        <div class="row-center" style="margin-bottom: 5%;">
-            <div class="col ">
-                <a class="link-card" href="">
-                    <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
-                    <p><b>Test</b></p>
+        
+        <div class="row-center" style="margin-bottom: 5%">
+            <div class="col">
+                <a href="">
+                    <img width="200px" src="img/makan1.jpg" alt="">
                 </a>
+                <p><b>Deo</b></p>
             </div>
         </div>
-        <!-- populer -->
-        <div class="row-center">
-            <b style=" font-family: 'inter';">
-                Resep Populer
-            </b>
-        </div>
+
         <div class="row-center" style="margin-bottom: 5%;">
             <div class="col">
                 <a class="link-card" href="">
 
-                    <img width="200px" src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="">
+                    <img width="200px" src="img/makan1.jpg" alt="">
                     <p><b>Test</b></p>
                 </a>
             </div>
@@ -73,14 +62,14 @@
         </div>
         <div class="row-center" style="margin-left: 3%;">
             <div class="col">
-                <a class="btn-category" href="/selected-cat"> <b>Sayuran</b> </a>
-                <a class="btn-category" href="/selected-cat"> <b>Makanan Khas</b> </a>
-                <a class="btn-category" href="/selected-cat"><b>Makanan Utama</b></a>
-                <a class="btn-category" href="/selected-cat"><b>Makanan Pembuka</b></a>
-                <a class="btn-category" href="/selected-cat"><b>Makanan Penutup</b></a>
-                <a class="btn-category" href="/selected-cat"><b>Minuman</b></a>
-                <a class="btn-category" href="/selected-cat"><b>Snack</b></a>
-                <a class="btn-category" href="/selected-cat"><b>Dessert</b></a>
+                <a class="btn-category" href=""> <b>Sayuran</b> </a>
+                <a class="btn-category" href=""> <b>Makanan Khas</b> </a>
+                <a class="btn-category" href=""> <b>Makanan Utama</b></a>
+                <a class="btn-category" href=""><b>Makanan Pembuka</b></a>
+                <a class="btn-category" href=""><b>Makanan Penutup</b></a>
+                <a class="btn-category" href=""><b>Minuman</b></a>
+                <a class="btn-category" href=""><b>Snack</b></a>
+                <a class="btn-category" href=""><b>Dessert</b></a>
             </div>
         </div>
     </section>
