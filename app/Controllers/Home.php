@@ -12,4 +12,8 @@ class Home extends BaseController
     {
         return view('home');
     }
+    public function restaurant_info()
+    {
+        return view('restaurant_info');
+    }
 }

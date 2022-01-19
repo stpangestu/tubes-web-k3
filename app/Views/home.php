@@ -21,7 +21,7 @@
     <nav>
         <div style="margin-left: 5em">
             <a class="nav-link" href="/"> <b>Home</b> </a>
-            <a class="nav-link" href=""> <b>Restoran</b> </a>
+            <a class="nav-link" href="/restaurant-info"> <b>Restoran</b> </a>
             <a class="nav-link" href=""> <b>Resep</b> </a>
         </div>
         <div style="margin-left: -5em">
