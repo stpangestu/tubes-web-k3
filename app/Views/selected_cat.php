@@ -36,14 +36,8 @@
     </nav>
     <section>
         <h1 style="margin-left: 4%; margin-bottom: 4%;">
-            Apa yang ingin anda masak hari ini?
+            Kategori <?= $kategori; ?>
         </h1>
-        <!-- baru -->
-        <div class="row-center">
-            <b style=" font-family: 'inter';">
-                Resep Terbaru
-            </b>
-        </div>
 
         <div class="row-center" style="margin-bottom: 5%;">
             <?php foreach ($resep as $key => $r) : ?>
@@ -55,22 +49,7 @@
                 </div>
             <?php endforeach ?>
         </div>
-        <!-- populer -->
-        <div class="row-center">
-            <b style=" font-family: 'inter';">
-                Resep Populer
-            </b>
-        </div>
-        <div class="row-center" style="margin-bottom: 5%;">
-            <?php foreach ($resepPopuler as $key => $r) : ?>
-                <div class="col ">
-                    <a class="link-card" href="/recipe/<?= $r['id']; ?>">
-                        <img width="200px" height="200px" style="border-radius: 6px;" src="/assets/imgresep/<?= $r['img_resep']; ?>" alt="">
-                        <p><b><?= $r['nama_resep']; ?></b></p>
-                    </a>
-                </div>
-            <?php endforeach ?>
-        </div>
+
         <div class="row-center">
             <b style=" font-family: 'inter';">
                 Lihat Resep Berdasarkan Kategori

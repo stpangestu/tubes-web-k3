@@ -33,8 +33,25 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/home', 'Home::home');
-$routes->get('/restaurant-info', 'Home::restaurant_info');
 
+
+
+//resep
+$routes->get('/categories/(:segment)', 'ResepController::categories/$1');
+$routes->get('/recipe/(:num)', 'ResepController::resep/$1');
+$routes->get('/reg-recipe', 'ResepController::add_recipe');
+$routes->add('/reg-recipe/submit', 'ResepController::create');
+$routes->add('/recipe/search', 'ResepController::search');
+
+// restoran
+$routes->get('/restaurant', 'RestoranController::restaurant');
+$routes->add('/restaurant/filter', 'RestoranController::filter');
+$routes->get('/restaurant-info/(:num)', 'RestoranController::restaurant_info/$1');
+$routes->add('/restaurant/search', 'RestoranController::search');
+
+//komentar
+$routes->add('/komentar/submit', 'KomentarController::create');
+$routes->add('/reply/submit', 'KomentarController::reply');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

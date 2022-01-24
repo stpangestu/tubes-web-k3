@@ -26,12 +26,14 @@
                 <a class="nav-link" href=""> <b>Resto</b> </a>
             </div> -->
             <div style="margin-left: 43em">
-                <h2 class="nav-brand">Guide.in</h2>
+                <h2>Guide.in</h2>
             </div>
-            <div style="margin-right: 10em" class="input-container">
+            <!-- <div style="margin-right: 10em" class="input-container">
                 <i class="fa fa-search icon"> </i>
-                <input class="input-field" type="text" placeholder="Search" />
-            </div>
+                <form action="/recipe/search/" method="post">
+                    <input class="input-field" name="search" type="text" placeholder="Search" />
+                </form>
+            </div> -->
         </nav>
 
         <section>
